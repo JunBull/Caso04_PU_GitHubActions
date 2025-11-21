@@ -60,7 +60,7 @@ public class TextProcessorTest {
     }
 
     @Test
-    void usuarioIngresaTextoConEspacioAlPrincipioYAlFinal() {
+    void usuarioIngresaTextoConEspacioAlPrincipioYAlFinalY() {
         String texto = "  mundo  ";
         String esperado = "ODNUM";
         String resultado = textProcessor.reverseAndCapitalize(texto);
